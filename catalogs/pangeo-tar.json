@@ -2,7 +2,7 @@
   "esmcat_version": "0.1.0",
   "id": "pangeo-tar",
   "description": "This is an ESM collection for IPCC Third Assessment Report (TAR) Zarr data residing in Google Storage.",
-  "catalog_file": "gs://ipcc-far/pangeo-tar.csv",
+  "catalog_file": "https://storage.googleapis.com/ipcc-tar/pangeo-tar.csv",
   "attributes": [
     {
       "column_name": "activity_id",

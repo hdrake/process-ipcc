@@ -2,7 +2,7 @@
   "esmcat_version": "0.1.0",
   "id": "pangeo-sar",
   "description": "This is an ESM collection for IPCC Second Assessment Report (SAR) Zarr data residing in Google Storage.",
-  "catalog_file": "gs://ipcc-far/pangeo-sar.csv",
+  "catalog_file": "https://storage.googleapis.com/ipcc-sar/pangeo-sar.csv",
   "attributes": [
     {
       "column_name": "activity_id",

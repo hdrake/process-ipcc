@@ -2,7 +2,7 @@
   "esmcat_version": "0.1.0",
   "id": "pangeo-far",
   "description": "This is an ESM collection for IPCC First Assessment Report (FAR) Zarr data residing in Google Storage.",
-  "catalog_file": "gs://ipcc-far/pangeo-far.csv",
+  "catalog_file": "https://storage.googleapis.com/ipcc-far/pangeo-far.csv",
   "attributes": [
     {
       "column_name": "activity_id",
