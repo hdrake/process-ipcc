@@ -1,0 +1,12 @@
+Follow Google Cloud SDK instructions at https://cloud.google.com/storage/docs/gsutil_install to install Google SDK and set up credentials to access the protected data.
+
+```bash
+curl https://sdk.cloud.google.com | bash
+exec -l $SHELL
+gcloud init --console-only
+```
+Type url into browser on local machine and authenticate!
+
+Then, copy zarr data from remote machine to the Google Cloud (following http://pangeo.io/data.html#data-in-the-cloud)
+
+gsutil -m cp -r data/zarr/SAR_historical_CCCma_mon_pr gs://cmip6hack-multigen-zarr/
