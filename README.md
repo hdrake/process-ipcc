@@ -36,4 +36,5 @@ Coming soon (?): raw files hosted directly on Zenodo
 
 Follow instructions in `../GoogleStorageInfo.txt`.
 
+---------
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
