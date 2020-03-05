@@ -50,6 +50,8 @@ python3 reformat_SAR_and_TAR.py
 ```
 
 ### Push to GCS
+Change target bucket in last few lines of `zarrify_and_push_to_gcs.py` to whichever bucket you would like to push to (and for which you are an authenticated user).
+
 Run the commands
 ```bash
 python3 zarrify_and_push_to_gcs.py
