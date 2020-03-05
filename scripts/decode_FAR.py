@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 import struct
 import netCDF4 as nc
@@ -14,6 +12,8 @@ import netcdf_util
 
 load_dir = "../data/raw/FAR/"
 save_dir = "../data/interim/FAR/"
+
+os.system(command = f"mkdir -p {save_dir}")
 
 # GFDL decadal mean
 model = models.gfdl
