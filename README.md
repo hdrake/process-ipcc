@@ -1,7 +1,5 @@
 process-ipcc
 ==============================
-[![Build Status](https://travis-ci.com/hdrake/process-ipcc.svg?branch=master)](https://travis-ci.com/hdrake/process-ipcc)
-[![codecov](https://codecov.io/gh/hdrake/process-ipcc/branch/master/graph/badge.svg)](https://codecov.io/gh/hdrake/process-ipcc)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
 ---------
