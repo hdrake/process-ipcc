@@ -37,4 +37,11 @@ Coming soon (?): raw files hosted directly on Zenodo
 Follow instructions in `../GoogleStorageInfo.txt`.
 
 ---------
+### Current quality control status
+
+I would consider the quality of the dataset to be adequate for `tas`, `pr`, `psl`, `uas`, `vas`, and `sfcWind` for FAR, SAR, and TAR and low for everything else. By adequate quality, I mean that the model output is 1) accurately described by its metadata and 2) the data has been properly re-coded from its original format to a CF-compliant Netcdf format, and 3) is ready for (careful) use in scientific projects.
+
+The creation and homogenization of the metadata creation process could probably be improved and the data could be further tested by exploratory data analysis notebooks and unit tests.
+
+---------
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
